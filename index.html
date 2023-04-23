@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="shortcut icon" type="link" href="https://static.thenounproject.com/png/1214230-200.png">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="infobox">
+        <div class="input-field">
+            <h1>Test</h1>
+
+            <div class="add-pair">
+                <div class="add-pair__input-box">
+                    <p class="add-pair__header">Name/Value Pair</p>
+                    <input type="text" id="add-pair__input" placeholder="Enter Name=Value">
+                </div>
+
+                <div class="add-pair__buttons-box">
+                    <button class="add">Add</button>
+                    <button class="reset" type="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pair-list">
+            <div class="pair-list__output-box">
+                <p class="pair-list__header">Name/Value Pair List</p>
+                <div class="pair-list__output"></div>
+                <p class="pair-list__header">Name/Value Pair List in XML</p>
+                <div class="pair-list__xml-output"></div>
+            </div>
+
+            <div class="pair-list__buttons-box">
+                <button class="sort-by-name">Sort By Name</button>
+                <button class="sort-by-value">Sort By Value</button>
+                <button class="delete">Delete</button>
+                <button class="show-xml">Show XML</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
